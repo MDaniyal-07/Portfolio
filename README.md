@@ -17,8 +17,8 @@ Design Conversions: Figma/PSD/Sketch mockup designs brought to life in WordPress
 📬 Let's Connect!
 Feel free to reach out if you have any questions, or if you're interested in collaborating on a project.
 
-Email: muhammaddaniyal4768@gmail.com
-LinkedIn: https://www.linkedin.com/in/mdaniyal07/
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/MuhammadDaniyal4768) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mdaniyal_07) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mdaniyal07) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/26945021) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/MDaniyal_07) 
+
 
 
 ⭐️ Acknowledgments
