@@ -197,10 +197,10 @@ a.menu-link.active-menu-link {
 }
 
 .logo span {
-  -webkit-text-stroke-width: 0.4px;
-  -webkit-text-stroke-color: var(--white-color);
+/*   -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: var(--white-color); */
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .dex-header a.nav-link.active {
@@ -769,8 +769,8 @@ button.accordion-button:hover {
 }
 
 span.card-number {
-    width: 2.8vw;
-    height: 2.8vw;
+    width: 40px;
+    min-height: 40px;
     background: rebeccapurple;
     display: flex;
     align-items: center;
