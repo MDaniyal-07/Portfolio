@@ -597,7 +597,7 @@ section.featured-projects {
 }
 
 .project-content p {
-  font-size: 0.8vw;
+  font-size: 1vw;
   text-transform: capitalize;
   font-weight: 100;
   line-height: 1.9;
@@ -731,13 +731,13 @@ button.accordion-button:hover {
 }
 
 .accordion-button:not(.collapsed)::after {
-    background: url('./assets/img/right arrow.svg');
+    background: url('../assets/img/right arrow.svg');
     transform: rotate(270deg);
     filter: invert(0);
 }
 
 .accordion-button::after {
-    background: url('./assets/img/right arrow.svg');
+    background: url('../assets/img/right arrow.svg');
     filter: invert(1);
     transform: rotate(140deg);
 }
@@ -836,7 +836,7 @@ p.card-des {
 .about-me {
     padding: 6vw 0;
     padding-bottom: 0;
-    background: url('./assets/img/popup\ menu\ top\ gradient.png');
+    background: url('../assets/img/popup\ menu\ top\ gradient.png');
     background-position: 87% -46%;
     background-repeat: no-repeat;
     background-size: 44vw;
@@ -892,7 +892,7 @@ p.card-des {
 }
 
 .profile-desc p {
-    font-size: 0.9vw;
+    font-size: 1vw;
 }
 .tags {
     display: flex;
