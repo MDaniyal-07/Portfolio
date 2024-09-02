@@ -17,11 +17,7 @@
 
 }
 
- .thumbimg-wraper a:hover ,.thumbimg-wraper a:active , .thumbimg-wraper a:focus , a.dex-Contact:focus  , a.dex-Contact:hover , a.dex-Contact:focus  , a.dex-Contact:active
-{
-  background: var(--btn-gradient-hover) !important;
-  transition: all 0.3s ease;
-}
+
 
 ::-webkit-scrollbar-thumb {
   background: #1A535C;
@@ -36,7 +32,12 @@
   width: 10px;
 }
 
-
+ .thumbimg-wraper a:hover ,.thumbimg-wraper a:active , .thumbimg-wraper a:focus , .contact100-form-btn:hover , .contact100-form-btn:active , .contact100-form-btn:focus , a.dex-Contact:focus  , a.dex-Contact:hover , a.dex-Contact:focus  , a.dex-Contact:active
+{
+  background: var(--btn-gradient-hover) !important;
+  transition: all 0.3s ease;
+	color:#fff;
+}
 body {
   background: linear-gradient(76deg, #121212, #10101c, #121212, #10101c);
   background-size: 940% 2938%;
