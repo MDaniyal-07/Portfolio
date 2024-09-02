@@ -79,3 +79,40 @@ jQuery(document).ready(function ($) {
     }
   });
 });
+
+jQuery(document).ready(function ($) {
+  // Function to update the anchor tag's href
+  function updateAnchorHref() {
+    var name = $('input[name="name"]').val().trim();
+    var subject = $('input[name="subject"]').val().trim();
+    var message = $('textarea[name="message"]').val().trim();
+
+    if (name && subject && message) {
+      var newHref =
+        "mailto:muhammaddaniyal4768@gmail.com?subject=" +
+        encodeURIComponent(subject + " - " + name) +
+        "&body=" +
+        encodeURIComponent(message);
+
+      $("a#emailLink").attr("href", newHref);
+      $(".btn-wrapper").removeClass("disabled"); // Enable the wrapper
+    } else {
+      $("a#emailLink").attr(
+        "href",
+        "mailto:muhammaddaniyal4768@gmail.com?subject=empty&body=empty"
+      );
+      $(".btn-wrapper").addClass("disabled"); // Disable the wrapper
+    }
+  }
+
+  // Event listeners for the inputs
+  $('input[name="name"], input[name="subject"], textarea[name="message"]').on(
+    "input",
+    function () {
+      updateAnchorHref();
+    }
+  );
+
+  // Initially disable the wrapper
+  updateAnchorHref();
+});
