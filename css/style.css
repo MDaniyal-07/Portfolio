@@ -1,7 +1,3 @@
-@font-face {
-  font-family: integral-reqular;
-  src: url(./assets/fonts/IntegralCF-Regular.woff2);
-}
 
 * {
   font-family: "Ubuntu", sans-serif;
@@ -1190,8 +1186,16 @@ textarea.input100 {
 
 /*------------------------------------------------------------------
 [ Button ]*/
+.disabled a{
+  cursor: inherit;
+  pointer-events: none;
+}
+.disabled {
+  cursor: not-allowed;
+  width: fit-content;
+}
 .container-contact100-form-btn {
-  width: 100%;
+  width: fit-content;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
