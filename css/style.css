@@ -12,8 +12,15 @@
   --aqua-color: #a8fff9;
   --black-color: #121212;
   --button-bg: #1a535c;
+  --btn-gradient-hover: linear-gradient(10deg, #9780e5 14.05%, #e666cc 89.3%);
   --btn-gradient: linear-gradient(128.87deg, #9780e5 14.05%, #e666cc 89.3%);
 
+}
+
+ .thumbimg-wraper a:hover ,.thumbimg-wraper a:active , .thumbimg-wraper a:focus , a.dex-Contact:focus  , a.dex-Contact:hover , a.dex-Contact:focus  , a.dex-Contact:active
+{
+  background: var(--btn-gradient-hover) !important;
+  transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -206,6 +213,13 @@ a.menu-link.active-menu-link {
   -webkit-background-clip: text !important;
   font-weight: 600;
 }
+.dex-header a.nav-link:hover {
+  background-color: unset !important;
+  background: var(--btn-gradient);
+  -webkit-text-fill-color: rgba(0, 0, 0, 0) !important;
+  -webkit-background-clip: text !important;
+  font-weight: 600;
+}
 
 .dex-header a.nav-link {
   color: #fff;
@@ -281,7 +295,7 @@ video#myVideo {
 .dex-btn {
   font-size: 1.1vw;
   background: var(--btn-gradient);
-  color: #fff;
+  color: #fff !important;
   font-weight: 400;
   padding: 0.5vw 1.1vw;
   border-radius: 20px;
@@ -1401,8 +1415,8 @@ textarea.input100 {
 }
 
 .about-me {
-    background-position: 50% 46%;
-    background-size: 94vw;
+         background-position: 76% 71px;
+        background-size: 107vw;
     padding-top: 100px;
 }
 
