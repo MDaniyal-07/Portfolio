@@ -963,7 +963,11 @@ div#offcanvasWithBackdrop .btn-close {
 .contact-icons i:hover {
     animation: hover 1s infinite alternate;
 }
-
+.dex-note
+{
+	color:#000;
+	font-size:12px;
+}
 
 
 
