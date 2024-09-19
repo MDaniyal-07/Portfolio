@@ -660,7 +660,7 @@ section.featured-projects {
 .faqs
 {
     padding: 6vw 0;
-    padding-top: 0;
+   
 }
 
 .section-titles {
@@ -761,7 +761,7 @@ button.accordion-button:hover {
 .cards-wrapper {
     display: flex;
     gap: 2vw;
-    padding: 5vw 0vw;
+    padding-top: 5vw;
 }
 
 .the-card {
@@ -846,16 +846,14 @@ p.card-des {
 
 .about-me {
     padding: 6vw 0;
+    padding-top: 10vw;
     padding-bottom: 0;
     background: url('../assets/img/popup\ menu\ top\ gradient.png');
     background-position: 87% -46%;
     background-repeat: no-repeat;
     background-size: 44vw;
 }
-.about-wrapper
-{
- 
-}
+
 .about-title {
     text-align: center;
     display: flex;
