@@ -1669,3 +1669,35 @@ video#myVideo {
     background-position: 0% 50%;
   }
 }
+
+/* Performance optimizations */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reduce layout shift */
+.thumbimg-wraper img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.profile-img img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* Optimize animations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Font loading optimization */
+@font-face {
+  font-family: 'Ubuntu';
+  font-display: swap;
+}
