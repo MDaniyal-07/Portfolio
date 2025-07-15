@@ -264,9 +264,10 @@ a.dex-Contact {
 }
 
 .content h1 {
-  font-size: 4vw;
+  font-size: 3.2vw;
   text-transform: uppercase;
   font-weight: 600;
+  line-height: 1.2;
 }
 
 h1.tag-line span {
@@ -278,7 +279,9 @@ h1.tag-line span {
 }
 
 p.tag-line-para {
-  font-size: 1.5vw;
+  font-size: 1.3vw;
+  line-height: 1.4;
+  margin-top: 1vw;
 }
 
 section.hero-sec {
@@ -739,6 +742,7 @@ button.accordion-button:hover {
 .accordion-body {
     background: rebeccapurple;
     border-radius: 0 0 12px 12px;
+    font-size: 1vw;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -768,7 +772,7 @@ button.accordion-button:hover {
     padding: 1.5vw;
     border: 0px solid rebeccapurple;
     border-radius: 15px;
-    height: 26vw;
+    height: 27vw;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 4px rebeccapurple;
@@ -780,8 +784,9 @@ button.accordion-button:hover {
 }
 
 span.card-number {
-    width: 40px;
-    min-height: 40px;
+   width: 3.6vw;
+    min-height: 3.6vw;
+    font-size: 1.7vw;
     background: rebeccapurple;
     display: flex;
     align-items: center;
@@ -1252,8 +1257,8 @@ textarea.input100 {
 
 /* Footer */
 .footer-icons i {
-    font-size: 18px;
-    padding: 5px;
+  font-size: 1.3vw;
+  padding: 0.6vw;
 }
 
 .footer-icons {
@@ -1301,13 +1306,16 @@ a.dex-Contact {
      padding: 10px 18px;
 }
 .content h1 {
-  font-size: 36px;
+  font-size: 28px;
+  line-height: 1.2;
 }
 h1.tag-line span {
   font-size: 5vw;
 }
 p.tag-line-para {
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-top: 10px;
 }
 .dex-btn {
   font-size: 15px;
