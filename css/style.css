@@ -1314,7 +1314,7 @@ textarea.input100 {
   height: 100%;
   object-fit: cover;
   z-index: 0;
-  display: block;
+ 
 }
 .dex-header a.nav-link {
 font-size: 14px;
