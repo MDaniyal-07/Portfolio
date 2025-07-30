@@ -1,0 +1,21 @@
+{
+  "name": "Muhammad Daniyal - Expert WordPress Developer",
+  "short_name": "Muhammad Daniyal",
+  "description": "Expert WordPress developer with 5+ years experience specializing in custom themes, WooCommerce, and Elementor Pro",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "icons": [
+    {
+      "src": "assets/img/Profile-picture.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "assets/img/Profile-picture.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+} 
