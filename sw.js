@@ -4,7 +4,7 @@ const urlsToCache = [
   '/css/style.css',
   '/js/scroll_js.js',
   '/assets/img/waves.webp',
-  '/assets/img/Profile-pic.webp',
+  
 ];
 
 self.addEventListener('install', function(event) {
