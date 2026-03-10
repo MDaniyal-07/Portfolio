@@ -1,4 +1,4 @@
-const CACHE_NAME = 'wp-developer-v1';
+const CACHE_NAME = 'wp-developer-v2';
 const urlsToCache = [
   '/',
   '/css/style.css',
@@ -44,3 +44,4 @@ self.addEventListener('activate', function(event) {
     })
   );
 }); 
+
